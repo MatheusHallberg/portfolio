@@ -1,0 +1,6 @@
+.backgroundCover {
+    background: url('../../images/programming.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px
+}

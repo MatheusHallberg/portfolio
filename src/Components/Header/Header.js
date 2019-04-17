@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
+import HeaderStyle from "./Header.module.css";
 
 const header = () => {
-    return (
-        <div className="container-section"> 
-            <h1> Header </h1>
-        </div>
-    )
-}
+  return <div className={[HeaderStyle.backgroundCover].join(" ")}>
+    <h1>Olá</h1> 
+  </div>;
+};
 
 export default header;
